@@ -144,18 +144,6 @@
             <version>0.32.0</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>io.opentracing.contrib.specialagent</groupId>
-            <artifactId>opentracing-specialagent-util</artifactId>
-            <version>1.5.1</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.opentracing.contrib.specialagent</groupId>
-            <artifactId>opentracing-specialagent</artifactId>
-            <version>1.5.1</version>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
          
 	<repositories>
