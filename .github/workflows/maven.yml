@@ -13,5 +13,5 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Build with Maven
-      run: mvn -B clean -Dtest=HttpServiceTest test --file pom.xml
+    - name: HttpServiceTest
+      run: mvn --batch-mode --errors -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn clean -Dtest=HttpServiceTest test --file pom.xml
